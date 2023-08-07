@@ -11,3 +11,66 @@
 ul {
   list-style: none;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* Added from ChatGBT */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f1f1f1;
+}
+
+#user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+#user-list li {
+  width: 220px;
+  border: 3px solid #082936;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b2c4ccea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#user-list li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#user-list li h4 {
+  margin: 20px;
+  color: #011318;
+  font-size: larger;
+}
+
+#user-list li a {
+  text-decoration: none;
+  color: #000000;
+  margin: 5px 0;
+  font-size: smaller;
+}
+
+#user-list li a:hover {
+  text-decoration: underline;
+}
